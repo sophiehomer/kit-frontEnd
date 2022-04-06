@@ -52,7 +52,7 @@ header img {
   left: 40px;
 }
 /* ------------------------------ WRITE A POST ------------------------------ */
-.writePostContainer {
+.writePost {
   display: flex;
   flex-direction: column;
   border: none;
@@ -81,19 +81,24 @@ header img {
   color: #7258BF;
 }
 
-.postBtnContainer {
+.postBtnDiv {
   padding-left: 20px;
   display: flex;
   flex-direction: row;
 }
 /* ---------------------------------- POSTS --------------------------------- */
-.contentContainer {
+.postSection {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.postContainer {
+.allPosts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.post {
   display: flex;
   flex-direction: column;
   border: 0.5px solid white;
@@ -104,7 +109,7 @@ header img {
   margin-top: 50px;
 }
 
-.btnContainer {
+.buttons {
   padding-left: 20px;
 }
 
@@ -170,7 +175,7 @@ header img {
   opacity: 100%;
 }
 
-.commentContainer {
+.comment {
   border-bottom: 0.5px solid rgb(75, 75, 75);;
   float: right;
   border-radius: 0.25;
