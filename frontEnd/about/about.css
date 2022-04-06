@@ -50,14 +50,14 @@ html {
     left: 20px;
   }
   /* ---------------------------------- ABOUT --------------------------------- */
-  .aboutContent {
+  .aboutTitle {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
   
-  .aboutContainer {
+  .aboutSection {
    align-items: center;
    display:flex;
    flex-flow: row wrap;

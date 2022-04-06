@@ -62,7 +62,7 @@ header img {
   justify-content: center;
 }
 
-.aboutContainer {
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,7 +74,7 @@ h2 {
   font-weight: bold;
 }
 
-.postContainer {
+.contactInfo {
   display: flex;
   flex-direction: column;
   border: none;
@@ -82,7 +82,7 @@ h2 {
   margin-top: 10px;
 }
 
-.postContainer .content {
+.contactInfo .content {
   display: flex;
   flex-direction: column;
   align-items: center;
