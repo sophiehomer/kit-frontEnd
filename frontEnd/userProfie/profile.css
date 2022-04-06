@@ -54,7 +54,7 @@ header nav a {
 }
 
 /* ---------------------------------- PROFILE INFORMATION ---------------------------------- */
-.wholePageContainer {
+.wholePage {
   display: flex;
   flex-direction: row;
   
@@ -109,7 +109,7 @@ img {
 
 /* ------------------------------ WRITE A POST ------------------------------ */
 
-.writePostContainer {
+.writePost {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -155,7 +155,7 @@ img {
   opacity: 1.0;
 }
 /* ---------------------------------- POSTS --------------------------------- */
-.contentContainer {
+.content {
   flex-basis: 190%;
 } 
 
@@ -193,7 +193,7 @@ img {
 
 /* ---------------------------------- POSTS --------------------------------- */
 
-.postContainer {
+.post {
   display: flex;
   flex-direction: column;
   border: 0.5px solid white;
@@ -272,7 +272,7 @@ img {
   opacity: 100%;
 }
 
-.commentContainer {
+.comment {
   border-bottom: 0.5px dashed black;
   float: right;
   border-radius: 0.25;
