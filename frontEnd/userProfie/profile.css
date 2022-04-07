@@ -18,21 +18,19 @@ body {
 header {
   padding-top: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header h1 {
-  font-size: 35px;
+  font-size: 30px;
   text-align: left;
-  padding-left: 6%;
+  margin-left: 0%;
 }
 
 .usersName {
-  background-color: fuchsia;
-}
-
-nav {
-  background-color:yellow;
+  padding-left: 6.2%;
 }
 
 .dropdown {
@@ -44,10 +42,7 @@ nav {
  }
 
 header nav {
-  position: absolute;
-  margin-right: 40px;
-  right: 0;
-  top:20px;
+  margin-right: 2%;
 }
 
 header nav a {
@@ -78,7 +73,7 @@ header nav a {
 }
 
 img {
-  margin-left: 85px;
+  margin-left: 20%;
   padding-top: 30px;
 }
 
@@ -296,7 +291,6 @@ img {
   border-radius: 25px;
 }
 
-
 .collapsible:after {
   content: "\02795";
   font-size: 13px;
@@ -353,7 +347,13 @@ footer {
 
   header {
     width: 128%;
-    /* display: flex; */
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  }
+
+  .navButton {
+    margin-right: 5%;
   }
 
   .leftSide {
@@ -366,16 +366,19 @@ footer {
     height: 100%;
 }
 
-  /* .navButton {
-    display: flex;
+.usersName {
+  padding-left: 15%;
+}
 
-  } */
+img {
+  margin-left: 12.5%;
+}
 
-  /* .dropdown {
-    margin-right: 0px;
-  } */
-
-
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 }
 
