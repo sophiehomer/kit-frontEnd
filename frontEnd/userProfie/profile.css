@@ -17,6 +17,7 @@ body {
 /* --------------------------------- HEADER/ NAV --------------------------------- */
 header {
   padding-top: 10px;
+  background-color: orange;
 }
 
 header h1 {
@@ -58,8 +59,6 @@ header nav a {
 .wholePage {
   display: flex;
   flex-direction: row;
-  
-  /* justify-content: space-between; */
   height: 100%;
 }
 
@@ -345,11 +344,29 @@ footer {
 
   header {
     width: 128%;
+    display: flex;
   }
 
   .leftSide {
     width: 128% !important;
   }
+
+  .wholePage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+  /* .navButton {
+    display: flex;
+
+  } */
+
+  /* .dropdown {
+    margin-right: 0px;
+  } */
+
+
 
 }
 
