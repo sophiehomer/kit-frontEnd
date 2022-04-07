@@ -17,13 +17,22 @@ body {
 /* --------------------------------- HEADER/ NAV --------------------------------- */
 header {
   padding-top: 10px;
-  background-color: orange;
+  display: flex;
+  flex-direction: column;
 }
 
 header h1 {
   font-size: 35px;
   text-align: left;
   padding-left: 6%;
+}
+
+.usersName {
+  background-color: fuchsia;
+}
+
+nav {
+  background-color:yellow;
 }
 
 .dropdown {
@@ -344,7 +353,7 @@ footer {
 
   header {
     width: 128%;
-    display: flex;
+    /* display: flex; */
   }
 
   .leftSide {
