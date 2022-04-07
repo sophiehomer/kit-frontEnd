@@ -35,6 +35,7 @@ header h1 {
 
 header nav {
   position: absolute;
+  margin-right: 40px;
   right: 0;
   top:20px;
 }

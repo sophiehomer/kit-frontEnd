@@ -18,12 +18,13 @@ header {
 }
 
 .dropdown {
-  margin-top: 10px;
+  margin: 0;
 }
 
 header nav {
-  position: absolute;
-  right: 20px;
+  position: fixed;
+  margin-right: 40px;
+  right: 0;
   top:20px;
 }
 
