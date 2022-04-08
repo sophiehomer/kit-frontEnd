@@ -241,4 +241,8 @@ footer {
  .dropdown {
    z-index: 50000 !important;
  }
+
+ .postBtnDiv {
+   z-index: -1;
+ }
 }
