@@ -14,7 +14,6 @@ body {
 /* --------------------------------- HEADER/NAV/DROPDOWN MENU ------------------------------------- */
 header {
   padding: 50px;
-  background-color: orange;
 }
 
 .dropdown {
@@ -23,7 +22,7 @@ header {
 
 header nav {
   position: fixed;
-  margin-right: 40px;
+  margin-right: 20px;
   right: 0;
   top: 20px;
 }
@@ -48,9 +47,8 @@ header nav a {
 /* ---------------------------------- LOGO ---------------------------------- */
 header img {
   position: absolute;
-  margin-top: 0%;
   top: 0;
-  left: 40px;
+  left: 0;
 }
 /* ------------------------------ WRITE A POST ------------------------------ */
 .writePost {
@@ -211,9 +209,8 @@ header img {
 /* --------------------------------- FOOTER --------------------------------- */
 footer {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  left: 0;
   font-size: 15px;
   width: 100%;
   padding: 0px;

@@ -21,9 +21,9 @@ body {
 
 header nav {
   position: fixed;
-  margin-right: 40px;
+  margin-right: 20px;
   right: 0;
-  top:20px;
+  top: 20px;
 }
 
 header nav a {
@@ -32,7 +32,6 @@ header nav a {
 
 .navButton {
   opacity: .5;
-  margin: 0;
 }
 
 .is-hoverable .navbar-item:hover {
@@ -41,11 +40,11 @@ header nav a {
 /* ---------------------------------- LOGO ---------------------------------- */
 header img {
   position: absolute;
-  top: 20px;
-  left: 40px;
+  top: 0;
+  left: 0;
 }
 /* ----------------------- SIGN UP/ SIGN IN CONTAINER ----------------------- */
-.SignUpSignIn {  
+.signUpSignIn {  
  display: flex;
  flex-direction: row;
  align-items: center;
@@ -184,3 +183,10 @@ footer {
   color: rgb(75, 75, 75);
 }
 
+
+@media only screen and (max-width: 510px) {
+.main {
+  z-index: -1;
+}
+
+}

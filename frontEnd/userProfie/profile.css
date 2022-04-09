@@ -41,8 +41,15 @@ header h1 {
   opacity: .5;
  }
 
-header nav {
+/* header nav {
   margin-right: 2%;
+} */
+
+header nav {
+  position: fixed;
+  margin-right: 20px;
+  right: 0;
+  top: 20px;
 }
 
 header nav a {
@@ -73,7 +80,7 @@ header nav a {
 }
 
 img {
-  margin-left: 20%;
+  margin-left: 15%;
   padding-top: 30px;
 }
 
@@ -372,6 +379,7 @@ footer {
 
   img {
     margin-left: 12.5%;
+    z-index: -1;
 }
 
   aside {

@@ -23,7 +23,7 @@ header {
 
 header nav {
   position: fixed;
-  margin-right: 40px;
+  margin-right: 20px;
   right: 0;
   top:20px;
 }
@@ -48,8 +48,8 @@ button {
 /* ---------------------------------- LOGO ---------------------------------- */
 header img {
   position: absolute;
-  top: 20px;
-  left: 40px;
+  top: 0;
+  left: 0;
 }
 /* --------------------------------- CONTACT -------------------------------- */
 .is-size-4 {
@@ -100,12 +100,15 @@ h2 {
 }
 /* --------------------------------- FOOTER --------------------------------- */
 footer {
-  font-family: sans-serif;
-  bottom: 0;
-  left: 0;
   font-size: 15px;
   width: 100%;
   padding: 0px;
   margin: 0px;
   color: rgb(75, 75, 75);
+}
+
+@media only screen and (max-width: 646px) {
+ .contactInfo {
+   z-index: -1;
+ }
 }
